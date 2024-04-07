@@ -1,0 +1,19 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+    align-items: center;
+}
+.button {
+    background-image: url(../images/sprites.png);
+    background-position: -246px -400px;
+    width: 84px;
+    height: 28px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}

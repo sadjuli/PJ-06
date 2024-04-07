@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <script src="./config.js"></script>
+    <script src="./classes//bird.js"></script>
+    <script src="./classes//pipe.js"></script>
+    <script src="./classes/game.js"></script>
+</head>
+<body>
+    <div class="game">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="startButton" class="button"></div>
+    </div>
+    <script>
+        const game = new Game('gameCanvas')
+    </script>
+</body>
+</html>
